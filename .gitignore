@@ -1,0 +1,11 @@
+# Ignore Terraform state files
+.terraform/
+*.tfstate
+*.tfstate.backup
+
+# Ignore Lambda deployment packages
+terraform/lambda/lambda_function_payload.zip
+
+# Ignore other local environment files
+.DS_Store
+*.log
